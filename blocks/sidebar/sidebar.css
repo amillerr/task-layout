@@ -1,0 +1,13 @@
+@import url(./__top/sidebar__top.css);
+@import url(./__middle/sidebar__middle.css);
+@import url(./__bottom/sidebar__bottom.css);
+
+.sidebar {
+  position:relative;
+  margin-left: auto;
+  width: 300px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.45);
+  border-radius: 2px;
+  top: -125px;
+  right: 20px;
+}

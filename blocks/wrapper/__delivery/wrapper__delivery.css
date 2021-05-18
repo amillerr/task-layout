@@ -1,0 +1,10 @@
+@import url(./__delivery_item/wrapper__delivery_item.css);
+
+.wrapper__delivery {
+  max-width: 70%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 200px));
+  grid-gap: 2vw;
+  padding: 2rem 0 2rem 2rem;
+  
+}

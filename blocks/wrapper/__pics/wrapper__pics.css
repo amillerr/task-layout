@@ -1,0 +1,12 @@
+@import url(./_item/wrapper__pics_item.css);
+@import url(./_title/wrapper__pics_title.css);
+
+
+.wrapper__pics {
+  display: flex;
+  
+  /* display: grid;
+  grid-template-columns: repeat(6, minmax(150px, 200px));
+  grid-gap: 2vw; */
+  padding: 2rem 0 2rem 2rem;
+}

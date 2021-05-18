@@ -1,0 +1,11 @@
+@import url(./__item/products__item.css);
+
+.products {
+  max-width: 1600px;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(6, 150px);
+  grid-gap: 2vw; */
+  padding: 2rem 0 2rem 2rem;
+  margin-top: 300px;
+}

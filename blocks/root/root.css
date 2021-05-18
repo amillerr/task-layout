@@ -1,0 +1,6 @@
+.root {
+  max-width: 1600px;
+  min-width: 768px;
+  margin: 0 auto;
+  font-family:Helvetica, Arial, sans-serif;
+}

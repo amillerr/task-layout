@@ -1,0 +1,11 @@
+@import url(./__list/nav__list.css);
+@import url(./__item/nav__item.css);
+@import url(./__item/__item_link/nav__item_link.css);
+@import url(./__item/__item_link/__item_link_descr/nav__item_link_descr.css);
+@import url(./__item/__item_link/__item_link_delivery/nav__item_link_delivery.css);
+@import url(./__item/__item_link/__item_link_why/nav__item_link_why.css);
+
+input {
+  display: none;
+}
+

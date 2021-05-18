@@ -1,0 +1,43 @@
+@import url(./__descr/wrapper__descr.css);
+@import url(./__delivery/wrapper__delivery.css);
+@import url(./__why/wrappper__why.css);
+@import url(./__pics/wrapper__pics.css);
+
+.wrapper {
+  background: #efefef;
+  width: 1600px;
+
+}
+
+div#content1 {
+  margin-top:15px;
+  display: block;
+  background: #efefef;
+  position: absolute;
+}
+
+div#content2 {
+  margin-top:15px;
+  display: none;
+  background: #D6CCE8;
+  position: absolute;
+}
+
+div#content3 {
+  margin-top:15px;
+  display: none;
+  position: absolute;
+  background: #f1bf8c;
+}
+
+input#descr:checked~div#content1 {
+  display: block;
+}
+
+input#delivery:checked~div#content2 {
+  display: block;
+}
+
+input#why:checked~div#content3 {
+  display: block;
+}

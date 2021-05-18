@@ -1,0 +1,9 @@
+@import url(./__descr_item/wrapper__descr_item.css);
+
+.wrapper__descr {
+  max-width: 70%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 200px));
+  grid-gap: 2vw;
+  padding: 2rem 0 2rem 2rem;
+}
