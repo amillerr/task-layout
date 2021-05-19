@@ -3,11 +3,10 @@
 @import url(./__bottom/sidebar__bottom.css);
 
 .sidebar {
-  position:relative;
-  margin-left: auto;
+  position: absolute;
   width: 300px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.45);
   border-radius: 2px;
-  top: -125px;
-  right: 20px;
+  top: 215px;
+  right: 40px;
 }

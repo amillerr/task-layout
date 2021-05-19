@@ -4,29 +4,30 @@
 @import url(./__pics/wrapper__pics.css);
 
 .wrapper {
-  background: #efefef;
-  width: 1600px;
-
+  max-width: 1280px;
 }
 
 div#content1 {
-  margin-top:15px;
+  max-width: 1280px;
+  margin-top:17px;
+  position: absolute;
   display: block;
   background: #efefef;
-  position: absolute;
 }
 
 div#content2 {
-  margin-top:15px;
+  max-width: 1280px;
+  margin-top:17px;
+  position: absolute;
   display: none;
   background: #D6CCE8;
-  position: absolute;
 }
 
 div#content3 {
-  margin-top:15px;
-  display: none;
+  width: 100%;
+  margin-top:17px;
   position: absolute;
+  display: none;
   background: #f1bf8c;
 }
 
@@ -40,4 +41,8 @@ input#delivery:checked~div#content2 {
 
 input#why:checked~div#content3 {
   display: block;
+}
+
+input#why:checked~div#content1 {
+  display: none;
 }

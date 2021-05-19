@@ -1,9 +1,29 @@
 @import url(./__why_item/wrapper__why_item.css);
 
 .wrapper__why {
-  max-width: 70%;
   display: grid;
-  grid-template-columns: repeat(5, minmax(150px, 200px));
-  grid-gap: 2vw;
-  padding: 2rem 0 2rem 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  width: 75%;
+}
+
+@media screen and (max-width: 1258px){
+  .wrapper__why {
+    width:40%;
+    grid-template-columns: repeat(3, 190px);
+  }
+}
+
+@media screen and (max-width: 950px){
+  .wrapper__why {
+    width:40%;
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+
+
+@media screen and (max-width: 800px){
+  .wrapper__why {
+    width:40%;
+    grid-template-columns: repeat(2, 200px);
+  }
 }

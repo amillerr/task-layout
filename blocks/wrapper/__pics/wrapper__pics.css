@@ -4,9 +4,8 @@
 
 .wrapper__pics {
   display: flex;
-  
+  flex-wrap: wrap;
   /* display: grid;
   grid-template-columns: repeat(6, minmax(150px, 200px));
   grid-gap: 2vw; */
-  padding: 2rem 0 2rem 2rem;
 }
